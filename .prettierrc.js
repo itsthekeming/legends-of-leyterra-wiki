@@ -1,6 +1,6 @@
 /** @type {import('prettier').Config} */
 module.exports = {
-  semi: true,
+  semi: false,
   singleQuote: true,
   trailingComma: 'es5',
   plugins: [
@@ -8,4 +8,4 @@ module.exports = {
     'prettier-plugin-organize-imports',
     'prettier-plugin-tailwindcss', // must come last
   ],
-};
+}
