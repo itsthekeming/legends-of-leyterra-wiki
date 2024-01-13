@@ -1,8 +1,4 @@
-/**
- * @param {string} string
- * @returns {string}
- */
-export function underscorify(string) {
+export function underscorify(string: string): string {
   return decodeURIComponent(string)
     .replace(/%2C/g, ',') // commas aren't decoded by decodeURIComponent
     .replaceAll(' ', '_')
